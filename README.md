@@ -1,5 +1,5 @@
 # Portfolio-Webpage
-Personal Portfolio Webpage For FCC Using HTML + CSS. [Click here to see it live.](https://github.com/JohnKodopanagiotis/Portfolio-Webpage.git)
+Personal Portfolio Webpage For FCC Using HTML + CSS. [Click here to see it live.](https://johnkodopanagiotis.github.io/Portfolio-Webpage/)
 
 
 *DISCLAIMER
