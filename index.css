@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+}
+@media (max-width: 61.25em) {
+  html {
+    font-size: 58%;
+  }
+}
+@media (max-width: 28.75em) {
+  html {
+    font-size: 55%;
+  }
+}
+body {
+  min-height: 200vh;
+  overflow-x: hidden;
+}
+#navbar {
+  list-style-type: none;
+  background-color: rgb(207, 13, 13);
+  padding: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: right;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+#navbar a {
+  padding: 21px;
+  color: whitesmoke;
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+}
+#navbar a:hover {
+  background-color: rgb(46, 141, 173);
+  height: 100%;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(8, 6, 6);
+}
+#welcome-section p {
+  color: rgb(218, 54, 54);
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+#welcome-section h1 {
+  color: whitesmoke;
+  font-size: 60px;
+  font-family: "Times New Roman", Times, serif;
+}
+#projects img {
+  height: 400px;
+  width: 350px;
+}
+#projects {
+  background-color: rgb(113, 112, 185);
+  height: 140vh;
+}
+#project-title {
+  display: flex;
+  color: white;
+  font-size: 25px;
+  justify-content: center;
+  padding: 100px 10px 10px 10px;
+}
+#proj {
+  margin: 1vw 15vw 1vw 15vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: auto;
+  height: 101vh;
+  align-items: center;
+  justify-content: center;
+}
+#proj div {
+  margin: 5px 14px 15px 14px;
+  text-align: center;
+  background-color: rgb(68, 67, 67);
+  border-radius: 1%;
+  box-shadow: 1px 0.5px;
+}
+#proj div a p {
+  padding: 20px;
+}
+#button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px 10px 10px;
+}
+#button a {
+  background-color: rgb(68, 67, 67);
+  padding: 15px;
+  width: 160px;
+  text-align: center;
+}
+#button a:hover {
+  background-color: rgb(207, 13, 13);
+}
+#contact {
+  background-color: rgb(68, 67, 67);
+  height: 80vh;
+}
+#contact-title {
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25vh;
+}
+#contact-title h2 {
+  font-size: 75px;
+  font-family: "Times New Roman", Times, serif;
+}
+#contact-title p {
+  font-size: 25px;
+}
+#contact img {
+  height: 30px;
+  width: 30px;
+  margin-right: 15px;
+}
+#contact-methods {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 40px;
+}
+#contact-methods div {
+  margin: 25px;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+footer {
+  background-color: rgb(68, 67, 67);
+  border-top: 2.5px solid rgb(207, 13, 13);
+  font-size: 20px;
+  padding: 2rem;
+  width: 100vw;
+  height: 12vh;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+footer p a {
+  display: inline-block;
+}
+footer p {
+  margin: 10px 100px 10px 100px;
+}
